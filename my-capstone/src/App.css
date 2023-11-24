@@ -12,6 +12,10 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+/*iphone screens*/
+@media screen and (max-width: 320px) {
+}
+
 
 .App-header {
   background-color: #282c34;
@@ -22,6 +26,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.show-image {
+  max-width: 50%;
+  max-height: 50%
 }
 
 .App-link {
