@@ -47,4 +47,3 @@ const carouselData = [
   ];
   
   export default carouselData;
-  
