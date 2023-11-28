@@ -1,47 +1,75 @@
 .App {
-  text-align: center;
+  overflow: hidden;
+  margin: 0 auto;
+  background-color: #2873dd;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-/*iphone screens*/
-@media screen and (max-width: 320px) {
-}
-
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 65px;
+  background: linear-gradient(90deg, #242429 1.18%, rgba(250, 8, 129, 0.4) 100%);
+  color: rgb(237, 240, 232);
+  padding: 15px;
 }
 
-.show-image {
-  max-width: 50%;
-  max-height: 50%
+.search--it{
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  font-size: 17px;
+  display: block;
+  margin: 0 auto;
 }
 
-.App-link {
-  color: #61dafb;
+.Favourite svg{
+  color: #0b0c13;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Favourite:hover svg {
+  
+  color: rgb(247, 96, 9)
+}
+
+.add-favourites svg {
+  color: #0b0c13;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.add-favourites:hover svg {
+  color: rgb(250, 7, 80);
+}
+
+.trending {
+  text-align: center;
+  font-style: italic;
+  color: #392387;
+}
+
+.carousel--title{
+  text-align: left;
+  padding-left: 85px;
+}
+
+.show--image{
+  width: 250px;
+  height: 250px;
+}
+
+.show--title{
+  color: #CE5A67;
+}
+
+.show--desc{
+  color: #22092C;
+}
+
+.A-Z  {
+  padding: 10px;
+  background-color: #FAF6F0;
+  cursor: pointer;
 }
