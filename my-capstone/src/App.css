@@ -1,14 +1,14 @@
 .App {
   overflow: hidden;
   margin: 0 auto;
-  background-color: #141516;
+  background-color: rgb(218, 39, 128);
 }
 
 .header {
   display: flex;
   align-items: center;
   height: 65px;
-  background: linear-gradient(90deg, #242429 1.18%, rgba(250, 8, 129, 0.4) 100%);
+  background: linear-gradient(90deg, #2f2fa5 1.18%, rgba(250, 8, 129, 0.4) 100%);
   color: rgb(237, 240, 232);
   padding: 15px;
 }
@@ -23,7 +23,7 @@
 }
 
 .Favourite svg{
-  color: #0b0c13;
+  color: #1027d1;
   transition-duration: 0.4s;
   cursor: pointer;
   
@@ -35,7 +35,7 @@
 }
 
 .add-favourites svg {
-  color: #0b0c13;
+  color: #0b130d;
   transition-duration: 0.4s;
   cursor: pointer;
 }
