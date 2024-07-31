@@ -1,4 +1,4 @@
-// data.js
+
 const carouselData = [
     {
       id: "5964",
